@@ -12,7 +12,7 @@ assets/
 *.png
 *.jpg
 *.jpeg
-*.ipynb
+# *.ipynb
 *.svg
 *.mp4
 
