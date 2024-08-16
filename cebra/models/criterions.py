@@ -39,6 +39,7 @@ import torch
 from torch import nn
 
 
+# 注意这里ref, pos, neg都是(n, d)的矩阵，这与样本对是如何生成的有关
 @torch.jit.script
 def dot_similarity(ref: torch.Tensor, pos: torch.Tensor,
                    neg: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
